@@ -274,7 +274,7 @@ Command line
 ------------
 
 - Command line options prefixed with main/test/regtest network names like
-  `-main.port=8333` `-test.server=1` previously were allowed but ignored. Now
+  `-main.port=8101` `-test.server=1` previously were allowed but ignored. Now
   they trigger "Invalid parameter" errors on startup. (#17482)
 
 New RPCs
@@ -478,7 +478,7 @@ Build system
 - #18060 Drop PeerTableModel dependency to ClientModel (promag)
 - #18062 Fix unintialized WalletView::progressDialog (promag)
 - #18091 Pass clientmodel changes from walletframe to walletviews (jonasschnelli)
-- #18101 Fix deprecated QCharRef usage (hebasto)
+- #18102 Fix deprecated QCharRef usage (hebasto)
 - #18121 Throttle GUI update pace when -reindex (hebasto)
 - #18123 Fix race in WalletModel::pollBalanceChanged (ryanofsky)
 - #18160 Avoid Wallet::GetBalance in WalletModel::pollBalanceChanged (promag)
@@ -505,7 +505,7 @@ Build system
 - #17265 Remove OpenSSL (fanquake)
 - #17284 Update retry to current version (RandyMcMillan)
 - #17308 nsis: Write to correct filename in first place (dongcarl)
-- #17324,#18099 Update univalue subtree (MarcoFalke)
+- #17324,#18100 Update univalue subtree (MarcoFalke)
 - #17398 Update leveldb to 1.22+ (laanwj)
 - #17409 Avoid hardcoded libfaketime dir in gitian (MarcoFalke)
 - #17466 Fix C{,XX} pickup (dongcarl)
@@ -711,7 +711,7 @@ Build system
 - #18311 Bumpfee test fix (instagibbs)
 - #18314 Add deserialization fuzzing of SnapshotMetadata (`utxo_snapshot`) (practicalswift)
 - #18319 fuzz: Add missing `ECC_Start` to `key_io` test (MarcoFalke)
-- #18334 Add basic test for BIP 37 (MarcoFalke)
+- #18102 Add basic test for BIP 37 (MarcoFalke)
 - #18350 Fix mining to an invalid target + ensure that a new block has the correct hash internally (TheQuantumPhysicist)
 - #18378 Bugfix & simplify bn2vch using `int.to_bytes` (sipa)
 - #18393 Don't assume presence of `__builtin_mul_overflow(…)` in `MultiplicationOverflow(…)` fuzzing harness (practicalswift)

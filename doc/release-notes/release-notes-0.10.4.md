@@ -133,7 +133,7 @@ git merge commit are mentioned.
 - #6953 `dfe0d4d` Include bitcoin-tx binary on Debian/Ubuntu
 - #6953 `612efe8` [Qt] Raise debug window when requested
 - #6953 `3ad96bd` Fix locking in GetTransaction
-- #6953 `9c81005` Fix spelling of Qt
+- #6953 `9c81015` Fix spelling of Qt
 - #6946 `94b67e5` Update LevelDB
 - #6706 `5dc72f8` CLTV: Add more tests to improve coverage
 - #6706 `6a1343b` Add RPC tests for the CHECKLOCKTIMEVERIFY (BIP65) soft-fork

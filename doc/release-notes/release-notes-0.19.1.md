@@ -86,7 +86,7 @@ distribution provides binaries for the RISC-V platform.
 - #17654 Unbreak build with Boost 1.72.0 (jbeich)
 - #17857 scripts: Fix symbol-check & security-check argument passing (fanquake)
 - #17762 Log to net category for exceptions in ProcessMessages (laanwj)
-- #18100 Update univalue subtree (MarcoFalke)
+- #18101 Update univalue subtree (MarcoFalke)
 
 Credits
 =======

@@ -1,4 +1,5 @@
 // Copyright (c) 2018-2020 The Bitcoin Core developers
+// Copyright (c) 2020-2021 The QuasarApp developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,10 +25,10 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The PersikCoin Core developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Bitcoin Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "PersikCoin Core"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2019
