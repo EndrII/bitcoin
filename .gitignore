@@ -150,3 +150,15 @@ db4/
 osx_volname
 dist/
 *.background.tiff
+
+
+src/bench/bench_persikcoin
+src/persikcoin-cli
+src/persikcoin-tx
+src/persikcoin-util
+src/persikcoin-wallet
+src/persikcoind
+src/qt/persikcoin-qt
+src/qt/test/test_persikcoin-qt
+src/test/test_persikcoin
+
